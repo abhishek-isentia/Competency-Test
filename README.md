@@ -2,10 +2,11 @@
 This page consists a set of coding challenges for software engineer and developers roles at iSentia.
 
 # Purpose
-Aim of this test is two fold,
+Aim of this test is three fold,
 
 - evaluate your coding abilities 
-- judge your technical experince and creativity to device a solution
+- judge your technical experince
+- understand how you design a solution
 
 # How you will be judged
 You will be scored on,
@@ -32,15 +33,14 @@ You will be scored on,
 
 ## Challenge-3: Flickr feed viewer and search
 
-## Software Engineer Intern Competency Test
-
 Write a simple web application that reads data from Flickr's public feeds and displays the images on the page to the user.
 Please check the Flickr API documentation from the following URL:
 
 - [Flickr]( http://www.flickr.com/services/feeds/)
 - [Public feed](https://api.flickr.com/services/feeds/photos_public.gne)
 
-## Instruction
+
+### Details
 
 - Write a web application which consist both backend and as well as frontend. 
 - On page load the applications should load the public feed images in either a list or grid view.  
