@@ -1,5 +1,5 @@
 # Coding challenge
-This page consists a set of coding challenges for JavaScript developer role at iSentia.
+This page consists a set of coding challenges for JavaScript (NodeJS/AngularJS) developer role at iSentia.
 
 # Purpose
 Aim of this test is three fold,
@@ -19,8 +19,8 @@ You will be scored on,
 # Intructions
 
 - Please use JavaScript, NodeJS, ExpressJS, and AngularJS for the following challenge
-- Candidate should put their test results on a public code repository hosted either on Github or Bitbucket
-- Once test is completed please share the Github or Bitbucket repository URL to hiring team so they can review your work
+- Candidate should put their test results on a public code repository hosted on Github
+- Once test is completed please share the Github repository URL to hiring team so they can review your work
 
 # Challenge - Flickr feed viewer and search
 
