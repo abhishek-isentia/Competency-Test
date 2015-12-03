@@ -40,3 +40,5 @@ Please check the Flickr API documentation from the following URL:
 
 You can use the [Twitter Bootstrap](http://getbootstrap.com/) to make your application look good.
 
+Bonus point, if you deploy the app as a public site using Amazon EC2 instance.
+
