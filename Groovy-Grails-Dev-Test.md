@@ -33,7 +33,7 @@ You will be scored on,
 
 ## Details
 
-- Write a web application built using Groovy, Grails, and MongoDB
+- Write a web application built using Groovy, Grails, MongoDB, and RabbitMQ
 - On page load the applications should render a search box.  
 - The user should be able to enter a keyword or hashtag in a search box and click on a search button
 - The app should return the relevant Tweets without page load
