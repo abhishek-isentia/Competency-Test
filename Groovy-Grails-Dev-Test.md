@@ -39,7 +39,7 @@ You will be scored on,
 - The user should be able to enter a `keyword` or `hashtag` in a search box and click on a search button
 - The app should return the relevant Tweets without page load
 - Use Grails APIs and Ajax to load results on search page
-- Cache the serch results in MongoDB
+- Store the search results in MongoDB, so next time a `keyword` search is performed against MongoDB data before calling Twitter API
 - Deploy the app as a public site using Amazon EC2 instance
 
 Optional, write the unit tests so we can run autoamted tests.
