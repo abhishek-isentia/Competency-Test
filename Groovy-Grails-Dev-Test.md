@@ -18,13 +18,14 @@ You will be scored on,
 
 # Intructions
 
-- Please use Groovy, Grails, MongoDB, and RabbitMQ
+- Please use Groovy, Grails, and MongoDB
 - Candidate should put their test results on a public code repository hosted on Github
 - Once test is completed please share the Github repository URL to hiring team so they can review your work
+- Use any other third party library or package of your choice if needed
 
 # Challenge - Flickr feed viewer and search
 
-- Write a simple web application that reads data from Twitter public search APIs and stores them into MongoDB. 
+- Write a simple web application that reads data from Twitter public search APIs 
 - Please check the following API documentation from the following URL:
 
 - [Twitter Search API]( https://dev.twitter.com/rest/public/search)
@@ -33,13 +34,12 @@ You will be scored on,
 
 ## Details
 
-- Write a web application built using Groovy, Grails, MongoDB, and RabbitMQ
+- Write a web application built using Groovy, Grails, and MongoDB
 - On page load the applications should render a search box.  
-- The user should be able to enter a keyword or hashtag in a search box and click on a search button
+- The user should be able to enter a `keyword` or `hashtag` in a search box and click on a search button
 - The app should return the relevant Tweets without page load
-- Use APIs and Ajax to load results on search page
-- Use any other third party library of your choice if needed 
+- Use Grails APIs and Ajax to load results on search page
+- Cache the serch results in MongoDB
+- Deploy the app as a public site using Amazon EC2 instance
 
-You can use the [Twitter Bootstrap](http://getbootstrap.com/) to make your application look good and responsive.
-
-Bonus point, if you deploy the app as a public site using Amazon EC2 instance.
+Optional, write the unit tests so we can run autoamted tests.
