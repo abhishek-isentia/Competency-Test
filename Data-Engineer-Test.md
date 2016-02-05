@@ -18,9 +18,10 @@ You will be scored on,
 
 # Intructions
 
-- Please use Compose for storing the results of the scrape the following challenge
+- Please use hosted MongoDB at [Compose](https://compose.io/) for storing the results of the scraped documents
 - Candidate should put their test results on a public code repository hosted on Github
 - Once test is completed please share the Github repository URL to hiring team so they can review your work
+- You are building a backend application and no UI is required, input can be provided using a configuration file or command line
 
 # Challenge - News Content Collect and Store
 
