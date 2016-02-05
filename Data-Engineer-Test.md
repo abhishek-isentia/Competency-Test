@@ -19,7 +19,6 @@ You will be scored on,
 # Intructions
 
 - Please use Compose for storing the results of the scrape the following challenge
-- Please use Python, NodeJS, ExpressJS, and AngularJS for the following challenge
 - Candidate should put their test results on a public code repository hosted on Github
 - Once test is completed please share the Github repository URL to hiring team so they can review your work
 
