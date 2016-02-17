@@ -1,5 +1,5 @@
 # Coding challenge
-This page consists a set of coding challenges for JavaScript (NodeJS/AngularJS) developer role at iSentia.
+This page consists a set of coding challenges for JavaScript (NodeJS/AngularJS) developer role at Isentia.
 
 # Purpose
 Aim of this test is three fold,
