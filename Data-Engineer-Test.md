@@ -1,5 +1,5 @@
 # Coding challenge
-This page consists a set of coding challenges for a Data Engineer role at iSentia.
+This page consists a set of coding challenges for Data Engineer role at Isentia.
 
 # Purpose
 Aim of this test is three fold,
@@ -32,7 +32,8 @@ Create a solution that crawls for articles from a news website, cleanses the res
 - Write an application to crawl an online news website, e.g. www.theguardian.com/au or www.bbc.com using the scrapy crawler framework (http://scrapy.org/) - build the application in Java, Python or Scala.
 - The appliction should cleanse the articles to obtain only information relevant to the news story, e.g. article text, author, headline, article url, etc.  Use a framework such as Readability to cleanse the page of superfluous content such as advertising and html
 - Store the data in a hosted mongo database, e.g. compose.io/mongo, for subsequent search and retrieval.  Ensure the URL of the article is included to enable comparison to the original.
-- Write an API that provides access to the content in the mongo database.  The user should be able to search for articles by keyword.
+- Write an API that provides access to the content in the mongo database.  The user should be able to search for articles by keyword
 
-Bonus point, if you deploy the solution as a public API using an Amazon EC2 instance.
+# Bonus point
+If you deploy the solution as a public API using an Amazon EC2 instance.
 
