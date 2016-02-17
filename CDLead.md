@@ -1,4 +1,4 @@
-# Coding challenge
+# CI/CD challenge
 This page consists a set of challenges for Continuous Delivery Lead role at Isentia.
 
 # Purpose
