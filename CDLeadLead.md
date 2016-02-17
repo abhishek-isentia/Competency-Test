@@ -20,25 +20,30 @@ You will be scored on,
 - You can use Groovy, Bash, Python, Ruby or any other scripting framework if required
 
 
-# Challenge - Jenkins Build Job
+# Challenge - Jenkins Bootstrap Build Job
 
 You are suppose to create a Jenkins job which will
 
 - Luanch a Ubuntu Amazon EC2 instance (`t2.micro`) with an Elastic IP
 - SSH on the server and install Jenkins
-- Install NodeJS, Grunt, Bower and Jekyll on the server
+- Setup appropriate Jenkins permission, users and roles
+- Secure your server using EC2 security groups
+- Install NodeJS, Grunt, Bower, Jekyll, etc. on the server
 - Create a new Jenkins Freestyle Project job or Jenkins Pipeline job
 - Clone the Bootstrap Git repository using SSH endpoint (`git@github.com:twbs/bootstrap.git`)
-- Add the build step Execute shell commands  `npm install`, `grunt dist`, `grunt docs`, `jekyll build`
+- Add the build step Execute shell command `jekyll build` in root directory
 - Build step will create a new folder `_gh_pages`
-- Add a Post-build action Publish artifacts to S3 Bucket using the [S3 Plguin](https://wiki.jenkins-ci.org/display/JENKINS/S3+Plugin)
+- Drop a `version.txt` file in the `_gh_pages` which includes jenkins job name and build number
+- Add a Post-build action `Publish artifacts to S3 Bucket` using the [S3 Plguin](https://wiki.jenkins-ci.org/display/JENKINS/S3+Plugin)
 - Create a Amazon S3 Bucket, enable static website hosting and add appropriate bucket policy
-- Copy content of the `_gh_pages` to your S3 bucket and share the 
+- `Publish artifacts to S3 Bucket` should copy content of the `_gh_pages` to your S3 bucket
+- Run the build job and you should see a Bootstrap static website similar to [this](http://getbootstrap.com/) on your S3 bucket URL
 
 ## Details
 
 - Use Amazon EC2 for hosting Jenkins server. 
 - For new users, AWS [offers Free tier](https://aws.amazon.com/free/)
-- Once test is completed please share the Jenkins and S3 Bucket URL with iSentia team
+- Once test is completed please share the Jenkins (IP/Port/Domain) and S3 Bucket URL with iSentia team
+- If Jenkins is login protected create an admin user for iSentia and share username and password
 
 
