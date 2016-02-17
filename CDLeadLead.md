@@ -20,9 +20,9 @@ You will be scored on,
 - You can use Groovy, Bash, Python, Ruby or any other scripting framework if required
 
 
-# Challenge - Jenkins Bootstrap Build Job
+# Challenge - Bootstrap Build Job
 
-You are suppose to create a Jenkins job which will
+You are suppose to create a Jenkins Job,
 
 - Luanch a Ubuntu Amazon EC2 instance (`t2.micro`) with an Elastic IP
 - SSH on the server and install Jenkins
@@ -38,6 +38,15 @@ You are suppose to create a Jenkins job which will
 - Create a Amazon S3 Bucket, enable static website hosting and add appropriate bucket policy
 - `Publish artifacts to S3 Bucket` should copy content of the `_gh_pages` to your S3 bucket
 - Run the build job and you should see a Bootstrap static website similar to [this](http://getbootstrap.com/) on your S3 bucket URL
+
+# Challenge - Continouse Delivery Workflow
+
+You are suppose to create a Jenkins Continouse Delivery Workflow,
+
+- Install the Build Pipeline Plugin and Parameterized Trigger Plugin
+- Break the above job in two Jenkin jobs: 1) Bootstrap static build job 2) Bootstrap static deployment to S3 job
+- Job 1 will use `Trigger parameterized build on other projects` post-build action to trigger job 2
+- Approproate build parameters from job 1 to job 2 should be passed to make sure that `version.txt` created by job 2 has both Jenkins job name and build number from job 1
 
 ## Details
 
