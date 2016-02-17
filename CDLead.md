@@ -1,5 +1,5 @@
 # Coding challenge
-This page consists a challenge for Continuous Delivery Lead role at iSentia.
+This page consists a challenge for Continuous Delivery Lead role at Isentia.
 
 # Purpose
 Aim of this test is three fold,
@@ -52,7 +52,7 @@ You are suppose to create a Jenkins Continuous Delivery Workflow,
 
 - Use Amazon EC2 for hosting Jenkins server. 
 - For new users, AWS [offers Free tier](https://aws.amazon.com/free/)
-- Once test is completed please share the Jenkins (IP/Port/Domain) and S3 Bucket URL with iSentia team
+- Once test is completed please share the Jenkins (IP/Port/Domain) and S3 Bucket URL with Isentia team
 - If Jenkins is login protected create an admin user for iSentia and share username and password
 
 # Bonus Point
