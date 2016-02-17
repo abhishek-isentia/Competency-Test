@@ -6,7 +6,7 @@ Aim of this test is three fold,
 
 - evaluate your Jenkins abilities 
 - judge your technical experince with CI/CD
-- understand how you automation design experince 
+- understand your automation design experince 
 
 # How you will be judged
 You will be scored on,
