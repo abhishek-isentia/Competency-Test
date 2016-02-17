@@ -1,5 +1,5 @@
 # Coding challenge
-This page consists a challenge for Continouse Delivery Lead role at iSentia.
+This page consists a challenge for Continuous Delivery Lead role at iSentia.
 
 # Purpose
 Aim of this test is three fold,
@@ -39,9 +39,9 @@ You are suppose to create a Jenkins Job,
 - `Publish artifacts to S3 Bucket` should copy content of the `_gh_pages` to your S3 bucket
 - Run the build job and you should see a Bootstrap static website similar to [this](http://getbootstrap.com/) on your S3 bucket URL
 
-# Challenge - Continouse Delivery Workflow
+# Challenge - Continuous Delivery Workflow
 
-You are suppose to create a Jenkins Continouse Delivery Workflow,
+You are suppose to create a Jenkins Continuous Delivery Workflow,
 
 - Install the Build Pipeline Plugin and Parameterized Trigger Plugin
 - Break the above job in two Jenkin jobs: 1) Bootstrap static build job 2) Bootstrap static deployment to S3 job
