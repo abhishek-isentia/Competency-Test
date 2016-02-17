@@ -29,7 +29,7 @@ You are suppose to create a Jenkins job which will
 - Setup appropriate Jenkins permission, users and roles
 - Secure your server using EC2 security groups
 - Install NodeJS, Grunt, Bower, Jekyll, etc. on the server
-- Create a new Jenkins Freestyle Project job or Jenkins Pipeline job
+- Create a new Jenkins Freestyle Project job or Jenkins [Pipeline](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Plugin) job
 - Clone the Bootstrap Git repository using SSH endpoint (`git@github.com:twbs/bootstrap.git`)
 - Add the build step Execute shell command `jekyll build` in root directory
 - Build step will create a new folder `_gh_pages`
@@ -46,4 +46,5 @@ You are suppose to create a Jenkins job which will
 - Once test is completed please share the Jenkins (IP/Port/Domain) and S3 Bucket URL with iSentia team
 - If Jenkins is login protected create an admin user for iSentia and share username and password
 
-
+# Bonus Point
+If you use the [Jenkins Pipeline job](https://github.com/jenkinsci/workflow-plugin/blob/master/TUTORIAL.md) to create the job
