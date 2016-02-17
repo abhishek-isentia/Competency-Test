@@ -28,7 +28,7 @@ You are suppose to create a Jenkins Job,
 - SSH on the server and install Jenkins
 - Setup appropriate Jenkins permission, users and roles
 - Secure your server using EC2 security groups
-- Install NodeJS, Grunt, Bower, Jekyll, etc. on the server
+- Install Ruby 2.0, Ruby Gem, Jekyll, etc. on the server
 - Create a new Jenkins Freestyle Project job or Jenkins [Pipeline](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Plugin) job
 - Clone the Bootstrap Git repository using SSH endpoint (`git@github.com:twbs/bootstrap.git`)
 - Add the build step Execute shell command `jekyll build` in root directory
