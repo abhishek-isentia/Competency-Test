@@ -35,4 +35,4 @@ You will be scored on,
 - The game has to be supported in the latest browsers, ie10+
 
 ## Bonus points
--Implementing a time tracker with state of time saved.
+- Implementing a time tracker with state of time saved.
