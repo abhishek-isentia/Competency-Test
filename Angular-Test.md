@@ -21,11 +21,11 @@ You will be scored on,
 - For this task you are to build a simple puzzle solving game that includes drag and drop functionality. 
 - Please use AngularJS, jQuery, jqueryUi and Bootstrap for the following challenge.
 - Please view game-mockup.png as a design reference to building this game
-- The only asset you are given for this tak is isentia.jpg
+- The only asset you are given for this task is isentia.jpg
 
 ## Requirements
 
-- The provided image(isentia.jpg) has to be scrambled into a minimum of 9 equal pieces on page load.
+- The provided image (isentia.jpg) has to be scrambled into a minimum of 9 equal pieces on page load.
 - Each piece can only be moved by dragging and dropping to a position in the grid container.
 - When the game starts a move counter has to keep track of the number of moves made.
 - The state of the game should be saved automatically so that the player is able to return to 
